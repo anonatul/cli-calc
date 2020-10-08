@@ -38,6 +38,7 @@ int main()
 				continue;
 			default:
 				cout << "Wrong action. Try again";
+				continue;
 			}
 		}
 }
