@@ -1,0 +1,34 @@
+
+#include<stdio.h>
+int main()
+{
+    int a,b;
+    int x;
+    
+    printf("Enter the values of NUM 1 : ");
+    scanf("%d",&a);
+    printf("Enter the values of NUM 2 : ");
+    scanf("%d",&b);
+    printf(" 1.Addition\n 2.Subtraction\n 3.Multiplication\n 4.Division\n");
+    printf("Enter Your operator (e.g. For Addition type 1 ) : ");
+    scanf("%d",&x);
+    switch(x)
+    {
+    case 1	:
+        printf("Sum of %d and %d is : %d",a,b,a+b);
+        break;
+    case 2	:
+        printf("Difference of %d and %d is : %d",a,b,a-b);
+        break;
+    case 3	:
+        printf("Multiplication of %d and %d is : %d",a,b,a*b);
+        break;
+    case 4	:
+        printf("Division of Two Numbers is %d . ",a/b);
+        break;
+    default	:
+        printf(" You Have enter wrong operator.");
+        break;
+    }
+    return 0;
+}
